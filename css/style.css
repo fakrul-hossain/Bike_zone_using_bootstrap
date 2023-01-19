@@ -1,0 +1,24 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.first_btn{
+    padding: 8px 35px;
+    border: 2px solid #E76F51;
+    color: #000;
+    border-radius: 5px;
+    background: linear-gradient(to right, #E76F51 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.first_btn:hover{
+    background-position: left bottom;
+    color: #fff;
+}
+.banner_background{
+    background-color: rgba(231, 111, 81, 0.1);
+}
